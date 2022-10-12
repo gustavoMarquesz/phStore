@@ -107,3 +107,29 @@ a svg{
 .custom-shape-divider-top-1665597520 .shape-fill {
     fill: #68AA21;
 }
+
+
+@media only screen and (max-width: 900px) {
+    .welcome img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .welcome{
+        margin-left: 10px;
+        font-size: 11px;
+    }
+
+    .aboutPh{
+        margin-left: 10px;
+        flex-direction: column;
+    }
+
+    .aboutPh img{
+        width: 250px;
+        height: 220px;
+
+    }
+   
+   
+  }
