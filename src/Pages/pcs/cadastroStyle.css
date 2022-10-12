@@ -1,0 +1,35 @@
+.pcs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    gap: 10px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input{
+    width: 200px;
+    height: 23px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+form button{
+    width: 200px;
+    height: 23px;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+form button:hover{
+    color: aliceblue;
+    background-color: green;
+}

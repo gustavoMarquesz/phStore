@@ -1,0 +1,109 @@
+.welcome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+h1 svg{
+    color: #68AA21;
+}
+
+a svg{
+    color: #68AA21;
+}
+.itens{
+    font-size: 13px;
+    gap: 50px;
+    height: 300px;
+    display: flex;
+    cursor: pointer;
+    margin-left: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.itensChildren{
+    font-weight: 1000;
+    max-width: 250px;
+   
+}
+
+.itensPri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+.span1{
+    color: red;
+    text-decoration: line-through;
+}
+
+.span2{
+    color: green;
+}
+
+.aboutPh{
+    gap: 40px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutPh img{
+    border-radius: 30px;
+    height: 300px;
+}
+
+.custom-shape-divider-bottom-1665597448 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1665597448 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 67px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1665597448 .shape-fill {
+    fill: #68AA21;
+}
+
+
+.custom-shape-divider-top-1665597520 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1665597520 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 67px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1665597520 .shape-fill {
+    fill: #68AA21;
+}
